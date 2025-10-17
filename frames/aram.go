@@ -1,9 +1,5 @@
 package frames
 
-// Aram: hacker-style multi-frame ASCII animation (green, glitch, blinking text).
-// Recommended frame delay for smooth playback: ~0.06 - 0.10 seconds per frame.
-// Usage: add to ascii-live frames and run the server (or go run main.go --animation aram).
-
 var Aram = DefaultFrameType(aramFrames)
 
 var aramFrames = []string{
